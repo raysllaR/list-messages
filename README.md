@@ -1,10 +1,10 @@
-# UniChats Front-End Challenge
+# UniChat Front-End Challenge
 
 Este repositório contém a parte de exibição de mensagens do UniChat, um desafio empolgante para novos desenvolvedores que desejam aprimorar suas habilidades em React e aplicar lógica focada no front-end.
 
 ## Resumo da Aplicação
 
-O UniChats Front-End Challenge é uma aplicação de exibição de mensagens que faz parte de um projeto maior. Ela oferece uma interface de usuário para visualizar mensagens em um formato de chat, permitindo que os usuários interajam com o conteúdo de forma intuitiva. Esta aplicação foi construída com foco em aprender e praticar habilidades essenciais de desenvolvimento front-end.
+O UniChat Front-End Challenge é uma aplicação de exibição de mensagens que faz parte de um projeto maior. Ela oferece uma interface de usuário para visualizar mensagens em um formato de chat, permitindo que os usuários interajam com o conteúdo de forma intuitiva. Esta aplicação foi construída com foco em aprender e praticar habilidades essenciais de desenvolvimento front-end.
 
 - Configure the top-level `parserOptions` property like this:
 
@@ -24,24 +24,23 @@ Recomendamos seguir o [Padrão de Commit](https://www.conventionalcommits.org/en
 1 - Clone o repositório:
 
 ```bash
-   git clone https://github.com/seu-usuario/unichats-frontend.git
+git clone https://github.com/raysllaR/list-messages.git
 ```
 
 2 - Navegue até o diretório da aplicação:
 
 ```bash
-   cd unichats-frontend
+cd list-messages
 ```
 
 3 - Instale as dependências:
 
 ```bash
-   npm install
+npm install
 ```
 
 4 - Instale as dependências:
 
 ```bash
-   npm run dev
-
+npm run dev
 ```
