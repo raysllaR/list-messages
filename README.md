@@ -1,27 +1,47 @@
-# React + TypeScript + Vite
+# UniChats Front-End Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém a parte de exibição de mensagens do UniChat, um desafio empolgante para novos desenvolvedores que desejam aprimorar suas habilidades em React e aplicar lógica focada no front-end.
 
-Currently, two official plugins are available:
+## Resumo da Aplicação
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+O UniChats Front-End Challenge é uma aplicação de exibição de mensagens que faz parte de um projeto maior. Ela oferece uma interface de usuário para visualizar mensagens em um formato de chat, permitindo que os usuários interajam com o conteúdo de forma intuitiva. Esta aplicação foi construída com foco em aprender e praticar habilidades essenciais de desenvolvimento front-end.
 
 - Configure the top-level `parserOptions` property like this:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## Links para Estudos
+
+Se você deseja aprimorar suas habilidades em React e desenvolvimento front-end, recomendamos conferir o seguinte material:
+
+- [Série de vídeo de React no YouTube](https://www.youtube.com/watch?v=1bEbBkWc4-I&list=PL29TaWXah3iZktD5o1IHbc7JDqG_80iOm): Esta série de vídeos oferece uma excelente introdução ao React e abrange vários tópicos relacionados ao desenvolvimento front-end.
+
+## Padrão de Commit
+
+Recomendamos seguir o [Padrão de Commit](https://www.conventionalcommits.org/en/v1.0.0/) para manter uma boa prática de commit em seu projeto. Esse padrão ajuda a manter um histórico de commits limpo e compreensível.
+
+
+## Como Rodar a Aplicação em Vite
+
+1 - Clone o repositório:
+
+```bash
+   git clone https://github.com/seu-usuario/unichats-frontend.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2 - Navegue até o diretório da aplicação:
+
+```bash
+   cd unichats-frontend
+```
+
+3 - Instale as dependências:
+
+```bash
+   npm install
+```
+
+4 - Instale as dependências:
+
+```bash
+   npm run dev
+
+```
